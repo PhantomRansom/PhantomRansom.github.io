@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Sofia+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Sofia Sans', sans-serif;
+}
+span{
+    color: rgb(182, 32, 32);
+}
+.complete{
+    text-align: center;
+}
+
+.purchase1, .purchase2, .purchase3{
+    border: black solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 200px;
+}
+.logo{
+    font-family: 'Rowdies', cursive;
+    padding-top: 50px ;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-color: #548ad0;
+    border-bottom: 3px solid black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+li{
+    display: inline;
+    font-weight: bold;
+    padding-top: 10px;
+}
+li a{
+    color: black;
+    padding: 8px 17px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+.purchase1{
+    margin-left: 350px;
+    margin-bottom: 300px;
+}
+.purchase2{
+    margin-left: 570px;
+}
+.purchase3{
+    margin-left: 570px;
+}
+
+.categories{
+    margin-top: 110px;
+    margin-left: 130px;
+}
+
+.slot-1{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+img{
+    margin-left: 150px;
+}
